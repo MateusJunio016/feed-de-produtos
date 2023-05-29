@@ -149,11 +149,3 @@ $(document).ready(function () {
     });
   });
 });
-
-$(document).ready(function() {
-  // Manipulador de eventos para o botão "Esconder feed"
-  $('#recolherFeedBtn').click(function() {
-    $('#productFeed').hide();
-    $('#corrigirBtn').hide();
-  });
-});
